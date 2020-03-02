@@ -1,0 +1,35 @@
+%full-star {
+  &:after {
+    content: url("/static/icons/ic_rating_full.svg");
+  }
+}
+
+.rating {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ffb83e;
+  $this: &;
+
+  &__item {
+    font-size: 24px;
+    display: block;
+    line-height: 1;
+    &:not(:last-child) {
+      padding-right: 5px;
+    }
+    &::after {
+      content: url("/static/icons/ic_rating_none.svg");
+    }
+  }
+
+  @for $i from 0 to 6 {
+    &[data-rating="#{$i}"] {
+      #{$this}__item:nth-child(-n + #{$i}) {
+        @extend %full-star;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import '../../scss/common/variable';
+
+.wrapper-location-card {
+  //border-radius: 5px;
+  //background-color: $color-white;
+  //border: 1px solid $border-color;
+  //margin-bottom: 30px;
+
+  h4 {
+    //height: 65px;
+    //margin: 0;
+    //border-bottom: 1px solid $border-color;
+    //display: flex;
+    //align-items: center;
+    //padding-left: 20px;
+    font-family: 'QuicksandBold';
+  }
+}
+
+.wrapper-maps-detail {
+  height: 1000px;
+}
+
+.icon-pin {
+  width: 35px;
+  height: 41px;
+}

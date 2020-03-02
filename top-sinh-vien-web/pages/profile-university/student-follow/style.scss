@@ -1,0 +1,44 @@
+@import '../../../scss/common/variable';
+@import '../../../scss/mixins/index';
+
+.wrapper-student-follow {
+  .wrapper-list-student-follow {
+    margin-right: -8px;
+    margin-left: -8px;
+  }
+  .wrapper-input-search-uni {
+    display: flex;
+    position: relative;
+    width: 100%;
+    @include breakpoint($breakpoint-md) {
+      width: 40%;
+    }
+
+    .search-school {
+      width: 100%;
+      border-radius: 5px;
+      border: 0;
+      outline: none;
+    }
+
+    .ic-search {
+      position: absolute;
+      right: 6px;
+      top: 6px;
+    }
+  }
+  .sort-select {
+    width: 100%;
+    @include breakpoint($breakpoint-md) {
+      width: calculateRem(167px);
+    }
+  }
+  .wrapper-select-sort {
+    width: 100%;
+    margin-top: calculateRem(10px);
+    @include breakpoint($breakpoint-md) {
+      width: auto;
+      margin-top: 0;
+    }
+  }
+}

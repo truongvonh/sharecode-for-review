@@ -1,0 +1,36 @@
+// render all class with font size rem
+@each $size in $all-font-size {
+  .fz-#{$size} {
+    @include fontSize($size * 1px);
+  }
+  @include breakpoint($breakpoint-md) {
+    @include fontSize($size * 2px);
+  }
+}
+
+// render all with icon
+@each $name, $width, $height in $all-icon {
+  .#{$name} {
+    @include pseudoBackground('before') {
+      @include backgroundImage($name, $width, $height);
+    }
+  }
+}
+
+@each $name, $color in $all-font-color {
+  .#{$name} {
+    color: $color;
+  }
+}
+
+@each $key, $value in $all-background {
+  .#{$key} {
+    background: $value;
+  }
+}
+
+@each $width in $all-width-percent {
+  .w-#{$width} {
+    width: $width * 1%;
+  }
+}

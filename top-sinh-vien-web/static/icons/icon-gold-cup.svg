@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="21.5" viewBox="0 0 21.5 21.5">
+  <g id="Cup_vang" data-name="Cup vang" transform="translate(0.75 0.75)">
+    <path id="Combined_Shape" data-name="Combined Shape" d="M1.5,0H18.5A1.547,1.547,0,0,1,20,1.59c0,5.84-4.476,10.576-10,10.576S0,7.431,0,1.587A1.547,1.547,0,0,1,1.5,0Z" transform="translate(0 2.116)" fill="none" stroke="#ffc400" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Combined_Shape-2" data-name="Combined Shape" d="M0,6.877A3.175,3.175,0,0,1,2.116,3.883V0H6.348V3.883A3.176,3.176,0,0,1,8.464,6.877Z" transform="translate(5.768 13.123)" fill="#fff" stroke="#ffc400" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Rectangle" d="M1.442,0h8.652a1.442,1.442,0,0,1,1.442,1.442V10.1A5.768,5.768,0,0,1,5.768,15.87h0A5.768,5.768,0,0,1,0,10.1V1.442A1.442,1.442,0,0,1,1.442,0Z" transform="translate(4.232)" fill="#fff" stroke="#ffc400" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Combined_Shape-3" data-name="Combined Shape" d="M3.174,4.966l-1.55.782c-.344.173-.569.015-.5-.351l.3-1.657L.163,2.568C-.115,2.307-.028,2.053.355,2l1.733-.242L2.863.25c.172-.334.451-.334.622,0L4.26,1.758,5.993,2c.384.054.47.309.192.568L4.931,3.741l.3,1.657c.066.367-.161.524-.5.351Z" transform="translate(6.826 3.912)" fill="#ffc400"/>
+  </g>
+</svg>

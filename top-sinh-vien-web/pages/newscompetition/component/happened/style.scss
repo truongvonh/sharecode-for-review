@@ -1,0 +1,35 @@
+@import '../../../../scss/common/variable';
+@import '../../../../scss/mixins/index';
+
+.wrapper-competition-happened {
+  background-color: $color-white;
+  border-radius: calculateRem(5px);
+  p {
+    margin: 0;
+  }
+
+  .wrapper-img-competition-cover {
+    .img-competition {
+      max-height: 160px;
+      width: 100%;
+      @include breakpoint($breakpoint-lg) {
+        max-width: 160px;
+      }
+    }
+  }
+
+  .item-date {
+    color: $color-content-light;
+  }
+
+  .text-champion {
+    color: $color-content-light;
+  }
+
+  .text-champion-sub {
+    color: $color-font;
+  }
+  .wrapper-icon {
+    border-top: 1px solid $border-colors;
+  }
+}

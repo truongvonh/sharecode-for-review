@@ -1,0 +1,35 @@
+.wrapper-multi-upload-img {
+  .ic-upload {
+    cursor: pointer;
+    font-size: 200px;
+  }
+
+  .wrapper-img-upload {
+    position: relative;
+
+    .ic-delete {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      cursor: pointer;
+    }
+  }
+
+  .wrapper-img-upload-cover {
+    width: 100%;
+    max-height: 200px;
+  }
+
+  .wrapper-img-upload-avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  .text-upload {
+    cursor: pointer;
+  }
+
+  .img-preview {
+    object-fit: cover;
+  }
+}

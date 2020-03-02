@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap');
+@import './../mixins/index';
+@import "./../common/variable";
+
+ul {
+  list-style-type: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bd-silver {
+  border: 1px solid $color-silver;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.skeleton-loading {
+  @include background-gradient;
+  animation: shine-avatar $animation-duration infinite linear;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Quicksand, Geneva, sans-serif;
+}
+
+body {
+  @include fontSize(14px);
+}
+
+button,
+input {
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none!important;
+  }
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+    img {
+      opacity: 0.6;
+    }
+  }
+  img {
+   @include transitionAll();
+    opacity: 1;
+  }
+}
+
+#__next {
+  height: inherit;
+}

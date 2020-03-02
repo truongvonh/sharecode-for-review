@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_208" data-name="Path 208" d="M-2-22H22V-46H-2Z" transform="translate(2 46)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ic_binh_luan" data-name="ic_binh luan" transform="translate(2 46)">
+    <g id="Group_167" data-name="Group 167" transform="translate(-2 -46)" clip-path="url(#clip-path)">
+      <g id="Group_164" data-name="Group 164" transform="translate(2 2)">
+        <path id="Path_205" data-name="Path 205" d="M18.723,14.893l.913,3.653c.2.8-.293,1.29-1.091,1.091l-3.653-.913a10,10,0,1,1,3.83-3.83Z" fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_165" data-name="Group 165" transform="translate(7.5 10)">
+        <path id="Path_206" data-name="Path 206" d="M0,1H9" transform="translate(0 -1)" fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_166" data-name="Group 166" transform="translate(7.5 14)">
+        <path id="Path_207" data-name="Path 207" d="M0,1H6" transform="translate(0 -1)" fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

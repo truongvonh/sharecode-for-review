@@ -1,0 +1,41 @@
+.upload-avatar {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	// border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	.spinner-border {
+		position: absolute;
+		top: calc(50% - 16px);
+		left: calc(50% - 16px);
+	}
+}
+.upload-avatar img {
+	filter: brightness(1);
+	transition: 300ms all ease-in-out;
+	object-fit: cover;
+	// border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+.upload-avatar:hover {
+	cursor: pointer;
+}
+.upload-avatar:hover img {
+	filter: brightness(0.7);
+}
+.upload-avatar:hover .upload-btn {
+	opacity: 1;
+}
+.upload-avatar .upload-btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: 150ms all ease-in;
+}
+.upload-avatar input[type='file'] {
+	display: none;
+}

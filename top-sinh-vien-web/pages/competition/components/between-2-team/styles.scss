@@ -1,0 +1,72 @@
+@import '../../../../scss/common/variable';
+
+.wrapper-team {
+  width: 100%;
+  margin-top: 20px;
+
+  p {
+    margin: 0;
+    font-family: 'QuicksandMedium';
+    font-size: calculateRem(16px);
+  }
+
+  .university-name {
+    width: 136px;
+  }
+
+  .wrapper-vote {
+    margin: 0 10px;
+    background: $color-main;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+
+    p {
+      margin: 0;
+      color: $color-white;
+    }
+
+    p:nth-child(1) {
+      font-family: 'QuicksandBold';
+      font-size: calculateRem(16px);
+    }
+
+    p:nth-child(2) {
+      font-family: 'QuicksandMedium';
+      font-size: calculateRem(12px);
+    }
+  }
+
+  .user-avatar {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+  }
+
+  .wrapper-match {
+    margin: 0 10px;
+    background: $color-white;
+    width: 150px;
+    height: 90px;
+    border-radius: 5px;
+
+    p {
+      margin: 0;
+      color: $color-main;
+      font-family: 'QuicksandBold';
+      font-size: calculateRem(16px);
+    }
+  }
+
+  .btn-vote {
+    outline: none;
+    background: $quite-blue-color;
+    color: $color-white;
+    font-family: 'QuicksandBold';
+    font-size: calculateRem(12px);
+    padding: 5px 23px;
+    border-radius: 5px;
+    border: 0px solid $quite-blue-color;
+    margin-top: 5px;
+  }
+}

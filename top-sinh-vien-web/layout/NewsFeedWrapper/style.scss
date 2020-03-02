@@ -1,0 +1,51 @@
+@import '../../scss/common/variable';
+@import '../../scss/mixins/index';
+
+.new-feed-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  @include breakpoint($breakpoint-lg) {
+    max-width: 40vmax;
+  }
+  @include breakpoint($breakpoint-newfeed-xxxl) {
+    max-width: 800px;
+  }
+}
+
+.news-page {
+  .side-content {
+    width: 21%;
+    max-width: 300px;
+    left: 100px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    max-height: calc(100% - 80px);
+    @include breakpoint($breakpoint-newfeed-xl) {
+      width: 23vmax;
+      max-width: inherit;
+    }
+    @include breakpoint($breakpoint-newfeed-xxxl) {
+      width: 24%;
+      max-width: 465px;
+    }
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &.right-position {
+      right: 100px;
+      left: auto;
+    }
+  }
+
+  .main-group-wrapper {
+    a:hover {
+      p {
+        color: $color-link;
+      }
+    }
+    .icon-group {
+      @include avatarCircleWrapper(30px, 30px);
+    }
+  }
+}

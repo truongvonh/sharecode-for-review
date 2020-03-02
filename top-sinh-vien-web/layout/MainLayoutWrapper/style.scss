@@ -1,0 +1,21 @@
+@import '../../scss/mixins/index';
+@import '../../scss/common/variable';
+
+.main-wrapper {
+  padding: 0 calculateRem(15px);
+  padding-top: calculateRem(100px);
+  min-height: 100%;
+  @include breakpoint($breakpoint-lg) {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .wrapper-content {
+    margin: 0 auto;
+    max-width: 1620px;
+    //min-height: 1500px;
+    .container {
+      min-height: 100%;
+    }
+  }
+}

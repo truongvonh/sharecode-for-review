@@ -1,0 +1,8 @@
+@import './../../scss/mixins/index';
+@import './../../scss/common/variable';
+
+.school-item {
+  .avatar {
+    @include avatarCircleWrapper(50px, 50px);
+  }
+}

@@ -1,0 +1,25 @@
+@import './../../../scss/common/_variable';
+@import './../../../scss/mixins/index';
+
+.auth-modal {
+  .modal-content {
+    background: transparent;
+    border: 0;
+  }
+  .modal-header {
+    border: 0;
+  }
+  .close {
+    color: $color-white;
+    opacity: initial;
+    &:hover {
+      color: $color-content;
+    }
+    span {
+      font-size: calculateRem(50px);
+    }
+  }
+  .modal-body {
+    border-radius: calculateRem($bd-radius)!important;
+  }
+}

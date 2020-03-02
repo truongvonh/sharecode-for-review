@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="ic_sv_choi" data-name="ic_sv choi" transform="translate(0.52 -0.805)">
+    <circle id="bg" cx="15" cy="15" r="15" transform="translate(-0.52 0.805)" fill="#0b46ae"/>
+    <g id="playlist" transform="translate(9.177 10.501)">
+      <circle id="Oval" cx="1.544" cy="1.544" r="1.544" stroke-width="1" transform="translate(4.772 8.141)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+      <path id="Rectangle" d="M0,9.825V.842L3.369,0V2.246" transform="translate(7.86)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Line" d="M0,1H5.334" transform="translate(0 0.965)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Line_Copy" data-name="Line Copy" d="M0,1H5.334" transform="translate(0 3.211)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Line_Copy_2" data-name="Line Copy 2" d="M0,1H3.649" transform="translate(0 5.457)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Rectangle_Copy" data-name="Rectangle Copy" d="M0,.842,3.369,0" transform="translate(7.86 2.246)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

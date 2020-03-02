@@ -1,0 +1,19 @@
+@import "./../../scss/mixins/index";
+@import "./../../scss/common/variable";
+
+.list-comment-wrapper {
+  .list-comment {
+    .avatar {
+      &,
+      & a {
+        @include avatarCircleWrapper(50px, 50px);
+      }
+    }
+  }
+  .comment-photo-wrapper {
+    width: 100%;
+    max-width: calculateRem(200px);
+    min-height: calculateRem(80px);
+    overflow: hidden;
+  }
+}

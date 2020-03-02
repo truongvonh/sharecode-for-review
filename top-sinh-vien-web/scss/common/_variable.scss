@@ -1,0 +1,78 @@
+// ======= # GENERAL COLOR # ======= //
+$color-main: #0b46ae;
+$color-white: #fff;
+$color-content: #eef3f7;
+$color-link: #1ba8e8;
+$color-font: #333333;
+$color-silver: #eee;
+$color-btn-google: #f14336;
+$color-btn-facebook: #4d6fa9;
+$secondary-color: #ebebeb;
+$yellow-color: #ffa900;
+$color-content-light: #999999;
+$border-colors: #999999;
+
+$bg-sidebar: #f6f8f6;
+$black-color: #000;
+$quite-blue-color: #1ba8e8;
+$orange-color: #fd5825;
+$bd-input: #efefef;
+$border-color: #dbe3eb;
+
+$all-font-color: (
+  color-main: $color-main,
+  color-btn-facebook: $color-btn-facebook,
+  color-font: $color-font,
+  color-orange: $orange-color,
+  color-error: $color-btn-google,
+  color-link: $color-link,
+  color-content-light: $color-content-light,
+  color-white: $color-white
+);
+
+$all-background: (
+  bg-main: $color-main,
+  bg-main-content: $color-content,
+  bg-btn-google: $color-btn-google,
+  bg-btn-facebook: $color-btn-facebook,
+  bg-link: $color-link,
+  bg-organe: $orange-color
+);
+
+$all-font-size: 7 8 10 12 14 16 18 20 24 30 40 50;
+$all-width-percent: 10 15 20 30 40 50 60 70 80 90;
+
+// ======= # DEVICE BREAKPOINT # ======= //
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1366px;
+
+$breakpoint-newfeed-xl: 1400px;
+$breakpoint-newfeed-xxl: 1600px;
+$breakpoint-newfeed-xxxl: 1920px;
+
+
+// ======= # Z-INDEX # ======= //
+$index-header: 1000;
+$index-sidebar: 1000;
+$index-scroll-top: 1001;
+$index-picker-emoji: 999;
+$index-icon: 10;
+$index-content: 10;
+$index-bg: -1;
+
+$bd-radius: 10px;
+// ======= # DEFINE VARIALBE # ======= //
+$all-icon: (
+  ('ic_heart', 15px, 14px),
+  ('ic_message', 15px, 16px),
+  ('ic_share_01', 13px, 16px),
+  ('ic_leaf_review', 12px, 17px),
+  ('ic_appoiment_02', 20px, 18px),
+  ('ic_schedule', 18px, 17px),
+  ('ic_send', 34px, 34px),
+  ('ic_emotion', 20px, 20px),
+  ('ic_gallery', 20px, 20px)
+);

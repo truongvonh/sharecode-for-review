@@ -1,0 +1,27 @@
+@import '../../../../scss/common/variable';
+@import '../../../../scss/mixins/index';
+
+.user-info {
+  .icon-badge,
+  .icon-badge :hover {
+    stroke: $yellow-color;
+  }
+}
+
+.wrapper-card-rank {
+  background-color: $color-white;
+}
+
+.user-info {
+  overflow: hidden;
+  cursor: pointer;
+
+  .user-university-name {
+    display: block;
+    color: $color-content-light;
+  }
+
+  .name-user {
+    display: block;
+  }
+}

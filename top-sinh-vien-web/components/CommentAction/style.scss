@@ -1,0 +1,102 @@
+@import './../../scss/mixins/index';
+@import './../../scss/common/variable';
+
+.comment-action-wrapper {
+  background: $color-white;
+
+  .avatar {
+    &,
+    & a {
+      @include avatarCircleWrapper(50px, 50px);
+    }
+  }
+
+  .input-comment {
+    textarea {
+      border: 0;
+      padding: calculateRem(15px);
+      padding-right: calculateRem(80px);
+      width: 100%;
+      background: $color-content;
+      border-radius: calculateRem(20px);
+
+      &:focus,
+      &:active {
+        outline: none !important;
+      }
+    }
+
+    .icon-upload {
+      right: calculateRem(5px);
+      bottom: calculateRem(12px);
+
+      i {
+        @include transitionAll();
+
+        &:hover {
+          color: $color-main;
+        }
+      }
+    }
+  }
+
+  .btn-submit {
+    width: calculateRem(50px);
+    height: calculateRem(50px);
+    border-radius: 50%;
+    @include flexCenterAll();
+    transform: rotateZ(-45deg);
+
+    svg {
+      path {
+        stroke: $color-white;
+
+      }
+    }
+  }
+
+  .emoji-picker {
+    right: 0;
+    bottom: 100%;
+    z-index: $index-picker-emoji;
+
+    .emoji-mart-preview {
+      display: none;
+    }
+  }
+}
+
+.preview-item {
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  @include borderRadius;
+  img {
+    @include borderRadius;
+    @include transitionAll;
+    object-fit: cover;
+    opacity: 1;
+    height: 100%;
+  }
+  .loading-upload {
+    @include absoluteXYCenter;
+    width: 4rem;
+    height: 4rem;
+    .icon-loading {
+      width: inherit;
+      height: inherit;
+    }
+  }
+  .remove-icon {
+    display: none;
+    @include absoluteXYCenter;
+  }
+  &:hover {
+    img {
+      opacity: 0.7;
+    }
+    .remove-icon {
+      display: block;
+    }
+  }
+}

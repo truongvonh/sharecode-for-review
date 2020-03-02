@@ -1,0 +1,29 @@
+.form-confirm-code {
+  .styles_react-code-input__CRulA > input:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+
+  .styles_react-code-input__CRulA > input {
+    border: solid 1px #a8adb7;
+    /* border-right: none; */
+    font-size: 20px;
+    color: #525461;
+    text-align: center;
+    box-sizing: border-box;
+    width: 40px !important;
+    margin: 5px;
+    height: 40px !important;
+    border-radius: 6px;
+    &:focus,
+    &:hover,
+    &:active {
+      //border-right: inherit;
+      border: solid 1px #a8adb7;
+    }
+  }
+  .styles_react-code-input__CRulA {
+    display: flex;
+    width: 100% !important;
+  }
+}

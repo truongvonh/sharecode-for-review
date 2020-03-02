@@ -1,0 +1,25 @@
+@import './../../scss/common/_variable';
+@import './../../scss/mixins/index';
+
+.header-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: $index-header;
+}
+
+.user-main-avatar {
+  width: calculateRem(40px);
+  height: calculateRem(40px);
+  border: 2px solid $color-white;
+
+  &+p {
+    max-width: 120px;
+  }
+}
+
+.menu-link:hover{
+  color: blue;
+}
+
+

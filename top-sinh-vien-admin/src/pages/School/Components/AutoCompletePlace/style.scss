@@ -1,0 +1,22 @@
+.search-suggestion-area {
+  position: relative;
+  .autocomplete-dropdown-container {
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  .suggestion-item {
+    padding: 20px;
+    &--active {
+      padding: 20px;
+    }
+  }
+  .form-control + .spinner-border {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+  }
+}

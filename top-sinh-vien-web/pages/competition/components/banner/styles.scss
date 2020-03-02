@@ -1,0 +1,51 @@
+@import '../../../../scss/common/variable';
+
+.wrapper-banner {
+  position: relative;
+
+  .banner {
+    width: 100%;
+  }
+
+  .wrapper-banner-button {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    padding-right: 10px;
+
+    button {
+      background: $color-white;
+      border: 1px solid $color-white;
+      outline: none;
+      padding: 6px 25px;
+      border-radius: 5px;
+      margin: 5px;
+      font-family: 'QuicksandBold';
+      color: $color-main;
+    }
+
+    button:hover {
+      color: $color-white;
+      background: $color-main;
+      border: 1px solid $color-main;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper-banner {
+    position: relative;
+
+    .wrapper-banner-button {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      flex-wrap: wrap;
+
+      button {
+        min-width: 133px;
+      }
+    }
+  }
+}

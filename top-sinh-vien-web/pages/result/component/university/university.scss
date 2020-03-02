@@ -1,0 +1,55 @@
+@import '../../../../scss/common/variable';
+@import '../../../../scss/mixins/index';
+
+.wrapper-item-university {
+  background-color: $color-white;
+  border: 1px solid $secondary-color;
+  border-radius: 5px;
+}
+
+.wrapper-item-image {
+  .image-university {
+    position: relative;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.wrapper-name-university {
+  .name-university {
+    color: $color-font;
+    font-size: 16px;
+
+    @include breakpoint($breakpoint-sm) {
+      font-size: 18px;
+    }
+  }
+}
+
+.button-item {
+  border-radius: 5px;
+  min-height: 30px;
+  width: 70%;
+  background: $color-white;
+  border: none;
+  color: $color-link;
+  border: 1px solid $color-link;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.button-item-follow {
+  border-radius: 5px;
+  min-height: 30px;
+  width: 70%;
+  background: $color-main;
+  border: none;
+  color: $color-white;
+  border: 1px solid $quite-blue-color;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}

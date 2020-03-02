@@ -1,0 +1,9 @@
+@import "./../../scss/common/variable";
+@import "./../../scss/mixins/index";
+
+.countdown-wrapper {
+  width: 100%;
+  max-width: calculateRem(530px);
+  border-radius: calculateRem(8px);
+  border: 2px dotted $color-link;
+}

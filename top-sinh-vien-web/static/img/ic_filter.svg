@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.184" height="18.472" viewBox="0 0 21.184 18.472">
+  <g id="ic_bo_loc" data-name="ic_bo loc" transform="translate(20.434 -0.25) rotate(90)">
+    <path id="Line" d="M1,0V19.684" transform="translate(3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Line_Copy" data-name="Line Copy" d="M1,0V19.684" transform="translate(8.986)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Line_Copy_2" data-name="Line Copy 2" d="M1,0V19.684" transform="translate(14.972)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <circle id="Oval_3" data-name="Oval 3" cx="2.5" cy="2.5" r="2.5" transform="translate(6.986 10.684)" stroke-width="1.5" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#0b46ae"/>
+    <circle id="Oval_3_Copy" data-name="Oval 3 Copy" cx="2.5" cy="2.5" r="2.5" transform="translate(1 2.817)" stroke-width="1.5" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#0b46ae"/>
+    <circle id="Oval_3_Copy_2" data-name="Oval 3 Copy 2" cx="2.5" cy="2.5" r="2.5" transform="translate(12.972 4)" stroke-width="1.5" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#0b46ae"/>
+  </g>
+</svg>

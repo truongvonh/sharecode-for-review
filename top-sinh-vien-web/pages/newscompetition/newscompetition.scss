@@ -1,0 +1,19 @@
+@import '../../scss/common/variable';
+@import '../../scss/mixins/index';
+
+.wrapper-btn-competition {
+  .btn-competition {
+    background: $color-content;
+    border: solid 1px $color-main;
+    color: $color-main;
+    width: 33%;
+    @include breakpoint($breakpoint-md) {
+      width: calculateRem(200px);
+    }
+  }
+
+  .btn-active {
+    color: $color-white;
+    background: $color-main;
+  }
+}

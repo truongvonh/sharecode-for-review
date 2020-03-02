@@ -1,0 +1,25 @@
+@import './../../scss/mixins/index';
+@import './../../scss/common/variable';
+
+.location-item {
+  &:hover h3 {
+    color: $color-link!important;
+  }
+  .avatar {
+    @include avatarCircleWrapper(65px, 65px);
+  }
+  .icon,
+  .icon:hover {
+    svg path {
+      stroke: $orange-color;
+    }
+  }
+  .is-near-school {
+    &,
+    &:hover {
+      svg path {
+        stroke: $color-main;
+      }
+    }
+  }
+}

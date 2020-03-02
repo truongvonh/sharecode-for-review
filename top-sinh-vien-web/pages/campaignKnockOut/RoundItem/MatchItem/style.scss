@@ -1,0 +1,61 @@
+@import "./../../../../scss/common/variable";
+@import "./../../../../scss/mixins/index";
+
+.all-match-of-round {
+  padding-bottom: calculateRem(15px);
+  & > div {
+    &:nth-child(2) {
+      order: 1;
+      @include breakpoint($breakpoint-xl) {
+        order: 2;
+      }
+    }
+    &:nth-child(1) {
+      order: 2;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      margin-bottom: 0.5rem;
+      @include breakpoint($breakpoint-xl) {
+        order: 1;
+        margin-bottom: 0;
+        flex-direction: initial;
+      }
+    }
+    &:nth-child(3) {
+      order: 3;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+    }
+  }
+  @include breakpoint($breakpoint-xl) {
+    padding-bottom: 0;
+  }
+  .avatar-team {
+    a {
+      @include avatarCircleWrapper(50px, 50px);
+    }
+  }
+  .view-match-btn {
+    background: $color-content;
+    p {
+      margin-bottom: 0;
+      padding: 0.5rem;
+      background: $color-white;
+      border-radius: 0.5rem;
+    }
+    button {
+      display: none;
+    }
+    @include breakpoint($breakpoint-xl) {
+      background: $color-white;
+      p {
+        border-radius: 0.5rem;
+        background: transparent;
+        margin-bottom: 0.5rem;
+      }
+      button {
+        display: block;
+      }
+    }
+  }
+}

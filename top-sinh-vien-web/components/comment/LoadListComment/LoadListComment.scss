@@ -1,0 +1,16 @@
+@import '../../../scss/common/variable';
+
+.wrapper-info-detail-user-post {
+  display: flex;
+  margin: 10px 0;
+
+  .wrapper-img-user {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.comment-content {
+  color: $color-content-light;
+  font-family: 'QuicksandMedium';
+}

@@ -1,0 +1,25 @@
+@import '../../../scss/common/variable';
+@import '../../../scss/mixins/index';
+.wrapper-time-line {
+  .wrapper-slide {
+    width: 300px;
+    background: $color-white;
+    border-radius: 5px;
+    border: 1px solid $color-content;
+    height: 100%;
+
+    .text-introduce {
+      border-bottom: 1px solid $color-content;
+    }
+  }
+
+  .sticky-top {
+    top: 100px;
+    z-index: 10;
+  }
+  .wrapper-album-photos {
+    .gallery-wrapper > div {
+      height: 100% !important;
+    }
+  }
+}

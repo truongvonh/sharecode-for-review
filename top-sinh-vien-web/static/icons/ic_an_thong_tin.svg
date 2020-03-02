@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.616" height="11.786" viewBox="0 0 25.616 11.786">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="25.616" height="11.786" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ic_an_thong_tin" data-name="ic_an thong tin" clip-path="url(#clip-path)">
+    <path id="Combined_Shape" data-name="Combined Shape" stroke="#999" d="M0,7a11.9,11.9,0,0,0,10.769,7A12.006,12.006,0,0,0,21.538,7c-.089.19-.044.1,0,0" fill="none" transform="translate(2.186 -6.25)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" opacity="0.3"/>
+    <path id="Path_1952" data-name="Path 1952" stroke="#999" d="M0,0V0Z" fill="none" transform="matrix(0.94, 0.342, -0.342, 0.94, 8.591, 7.327)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.3"/>
+    <path id="Path_1955" data-name="Path 1955" stroke="#999" d="M0,0V0Z" fill="none" transform="translate(2.885 2.464) rotate(30)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.3"/>
+    <path id="Path_1956" data-name="Path 1956" stroke="#999" d="M0,3.722v0Z" fill="none" transform="translate(18.297 10.824) rotate(160)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.3"/>
+    <path id="Path_1957" data-name="Path 1957" stroke="#999" d="M0,3.722v0Z" fill="none" transform="translate(24.591 5.687) rotate(150)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.3"/>
+  </g>
+</svg>

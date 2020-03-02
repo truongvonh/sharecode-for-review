@@ -1,0 +1,30 @@
+@import '../../../scss/common/variable';
+@import '../../../scss/mixins/index.scss';
+
+.wrapper-status-post {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+  border-bottom: 1px solid #EEF3F7;
+
+  @include breakpoint($breakpoint-xl) {
+    padding: 20px 30px;
+  }
+}
+
+.item-status {
+  p {
+    display: none;
+    margin: 0 5px;
+  }
+
+  @include breakpoint($breakpoint-sm) {
+    display: flex;
+    align-items: center;
+
+    p {
+      display: block;
+
+    }
+  }
+}

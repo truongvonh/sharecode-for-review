@@ -1,0 +1,142 @@
+@import '../../scss/common/variable';
+@import '../../scss/mixins/index';
+
+.wrapper-university {
+  .university-header {
+    background: $color-white;
+
+    .wrapper-avatar-university {
+      width: calculateRem(90px);
+      height: calculateRem(90px);
+      border: solid 2px $color-white;
+      .img-avatar-university {
+        object-fit: cover;
+      }
+    }
+
+    .university-name {
+      font-size: calculateRem(14px);
+      @include breakpoint($breakpoint-sm) {
+        font-size: calculateRem(16px);
+      }
+      @include breakpoint($breakpoint-md) {
+        font-size: calculateRem(18px);
+      }
+    }
+    .university-address {
+      font-size: calculateRem(12px);
+      @include breakpoint($breakpoint-sm) {
+        font-size: calculateRem(14px);
+      }
+    }
+  }
+
+  .wrapper-rank-star {
+    margin-right: 10px;
+    img {
+      margin: 0 2px;
+    }
+  }
+
+  .total-rating {
+    color: $orange-color;
+    margin: 0 5px;
+    margin-top: 4px;
+  }
+
+  .text-follow {
+    margin-top: 4px;
+  }
+
+  .btn-follow {
+    outline: none;
+    background: $color-main;
+    color: $color-white;
+    border: solid 0px $color-main;
+    border-radius: calculateRem(5px);
+  }
+
+  .btn-unfollow {
+    outline: none;
+    background: $color-white;
+    color: $quite-blue-color;
+    border: solid 1px $quite-blue-color;
+    border-radius: calculateRem(5px);
+  }
+
+  .nav-profile {
+    background: $color-main;
+    p {
+      margin: 0;
+      color: $color-white;
+      cursor: pointer;
+      font-size: calculateRem(14px);
+    }
+  }
+
+  .link-active {
+    p {
+      color: $color-link;
+    }
+  }
+
+  .wrapper-slide {
+    background: $color-white;
+    border-radius: 5px;
+    border: 1px solid $color-content;
+  }
+
+  .wrapper-slide-review {
+    width: 100%;
+    background: $color-white;
+    border-radius: 5px;
+    border: 1px solid $color-content;
+    height: 100%;
+  }
+
+  .boder-bottom {
+    border-bottom: 1px solid $color-content;
+  }
+  .university-intro {
+    max-height: calculateRem(250px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .review-intro {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .wrapper-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .btn-review {
+    outline: none;
+    background: $color-link;
+    color: $color-white;
+    border: solid 1px $color-link;
+    border-radius: calculateRem(5px);
+  }
+
+  .text-circle {
+    background: #0b46ae;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  .gallery-wrapper > div {
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .side-content {
+    width: 21%;
+    max-width: 300px;
+    left: 100px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    max-height: calc(100% - 80px);
+  }
+}

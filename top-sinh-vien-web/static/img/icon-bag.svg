@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="ic_thanh_ly" data-name="ic_thanh ly" transform="translate(0.52 -0.805)">
+    <circle id="bg" cx="15" cy="15" r="15" transform="translate(-0.52 0.805)" fill="#0b46ae"/>
+    <g id="shop-cart-7" transform="translate(9.448 9.805)">
+      <path id="Rectangle_8" data-name="Rectangle 8" d="M.762.8A.888.888,0,0,1,1.646,0H9.062a.888.888,0,0,1,.884.8l.724,7.108a.888.888,0,0,1-.884.979H.921a.888.888,0,0,1-.884-.979Z" transform="translate(0 2.962)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Combined_Shape" data-name="Combined Shape" d="M4.146-11.261v-2.665A2.074,2.074,0,0,0,2.073-16,2.075,2.075,0,0,0,0-13.927v2.665" transform="translate(3.281 16)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

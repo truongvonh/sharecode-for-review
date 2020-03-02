@@ -1,0 +1,83 @@
+@import '././scss/common/variable';
+@import '././scss/mixins/index';
+
+.school-overview-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+
+  p {
+    padding: 0;
+  }
+
+  .action-button {
+    button {
+      border-radius: calculateRem(5px);
+      svg,
+      svg:hover {
+        path {
+          stroke: $color-white;
+        }
+      }
+    }
+  }
+
+  .avatar,
+  .btn-comment {
+    border-radius: 50%;
+    width: calculateRem(50px);
+    height: calculateRem(50px);
+  }
+
+  .avatar {
+    a {
+      overflow: hidden;
+      height: inherit;
+    }
+    img {
+      width: calculateRem(50px);
+      border-radius: 50%;
+      height: calculateRem(50px);
+    }
+  }
+
+  .all-badge {
+    img {
+      width: calculateRem(15px);
+      height: calculateRem(15px);
+    }
+  }
+  .btn-comment {
+    transform: rotateZ(-50deg);
+    path {
+      stroke: $color-white;
+    }
+  }
+
+  .btn-view-all {
+    outline: none;
+    background: $color-white;
+    color: $color-main;
+    border: solid 1px $color-main;
+    border-radius: calculateRem(5px);
+  }
+
+  .clear-both {
+    clear: both;
+  }
+
+  .btn-follow {
+    outline: none;
+    background: $color-main;
+    color: $color-white;
+    border: solid 0px $color-main;
+    border-radius: calculateRem(5px);
+  }
+
+  .btn-unfollow {
+    outline: none;
+    background: $color-white;
+    color: $quite-blue-color;
+    border: solid 1px $quite-blue-color;
+    border-radius: calculateRem(5px);
+  }
+}

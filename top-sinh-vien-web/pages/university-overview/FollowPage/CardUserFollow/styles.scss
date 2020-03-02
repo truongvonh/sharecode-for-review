@@ -1,0 +1,60 @@
+.wrapper-card-user-follow {
+  padding: 0 10px 10px 0;
+  width: 25%;
+}
+
+// ====== responsive ======
+
+@media screen and (max-width: 1200px) {
+  .profile-pic {
+    width: 33.3333%;
+  }
+}
+
+.item-card-follow {
+  background-color: #fff;
+  border: 1px solid #DBE3EB;
+  border-radius: 5px;
+  max-width: 384px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-image-user {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.wrapper-info-user {
+  width: 75%;
+}
+
+.username-info {
+  font-family: 'QuicksandBold';
+  font-size: calculateRem(18px);
+}
+
+.follow-btn {
+  border-radius: 5px;
+  min-height: 30px;
+  width: 110px;
+  font-size: calculateRem(12px);
+  background-color: #fff;
+  color: #1BA8E8;
+  border: 1px solid #1BA8E8;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}

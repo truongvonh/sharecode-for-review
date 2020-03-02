@@ -1,0 +1,9 @@
+@import "./../../scss/common/variable";
+
+.share-btn {
+  svg {
+    path {
+      stroke: $color-white;
+    }
+  }
+}

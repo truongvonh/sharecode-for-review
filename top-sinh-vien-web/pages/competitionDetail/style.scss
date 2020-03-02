@@ -1,0 +1,58 @@
+@import "./../../scss/common/variable";
+@import "./../../scss/mixins/index";
+
+.wrapper-match {
+  background-size: cover;
+  height: 35%;
+  min-height: calculateRem(200px);
+  @include breakpoint($breakpoint-md) {
+    min-height: calculateRem(300px);
+  }
+  @include breakpoint($breakpoint-xl) {
+    min-height: calculateRem(500px);
+  }
+  .all-btn {
+    top: 0;
+  }
+
+  .match-infor-winner {
+    .winner-infor {
+      @include fontSize(12px);
+      @include breakpoint($breakpoint-xl) {
+        @include fontSize(16px);
+      }
+    }
+  }
+
+  .match-name {
+    position: relative;
+    z-index: $index-content;
+    background: url("/static/img/bg_title.png") no-repeat center center;
+    background-size: cover;
+    max-width: 350px;
+    width: 100%;
+    height: 65px;
+  }
+
+  .detail-match {
+    .versus-icon {
+      svg {
+        path {
+          stroke: $color-white;
+        }
+      }
+    }
+    .school-infor {
+      width: 100%;
+      &-wrapper {
+        width: 30%;
+      }
+      .team-avatar {
+        @include avatarCircleWrapper(80px, 80px);
+        @include breakpoint($breakpoint-lg) {
+          @include avatarCircleWrapper(150px, 150px);
+        }
+      }
+    }
+  }
+}

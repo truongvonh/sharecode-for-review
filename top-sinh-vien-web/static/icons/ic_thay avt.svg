@@ -1,0 +1,18 @@
+<svg id="ic_thay_avt" data-name="ic_thay avt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_649" data-name="Path 649" d="M-2-26H13V-41H-2Z" transform="translate(2 41)" fill="none"/>
+    </clipPath>
+  </defs>
+  <circle id="Ellipse_50" data-name="Ellipse 50" cx="12.5" cy="12.5" r="12.5" fill="#0b46ae"/>
+  <g id="Group_649" data-name="Group 649" transform="translate(5 5.5)">
+    <g id="Group_648" data-name="Group 648" clip-path="url(#clip-path)">
+      <g id="Group_646" data-name="Group 646" transform="translate(1.25 2.813)">
+        <path id="Path_647" data-name="Path 647" d="M8.438,0H4.063L2.813,1.562H.938A.937.937,0,0,0,0,2.5V8.44a.936.936,0,0,0,.936.935H11.564A.936.936,0,0,0,12.5,8.44V2.5a.937.937,0,0,0-.938-.935H9.687Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_647" data-name="Group 647" transform="translate(5.313 5.625)">
+        <path id="Path_648" data-name="Path 648" d="M2.187,4.375A2.187,2.187,0,1,0,0,2.187,2.188,2.188,0,0,0,2.187,4.375Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

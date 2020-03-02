@@ -1,0 +1,10 @@
+@import "./../../scss/common/variable";
+@import "./../../scss/mixins/index";
+
+.affiliate-wrapper {
+  svg {
+    path {
+      fill: red;
+    }
+  }
+}

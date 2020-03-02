@@ -1,0 +1,63 @@
+.wrapper-card-review {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #DBE3EB;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.heading-card-review {
+  display: flex;
+  border-bottom: 1px solid #EEF3F7;
+  justify-content: space-between;
+
+  p {
+    font-family: 'QuicksandBold';
+    font-size: calculateRem(18px);
+  }
+}
+
+.total-evaluation {
+  color: #FD5825;
+  text-align: right;
+}
+
+.total-user-evaluation {
+  font-size: calculateRem(14px);
+  font-family: 'QuicksandMedium';
+  color: #999;
+}
+
+.content-card-review {
+  margin-top: 10px;
+}
+
+.wrapper-evaluation {
+  padding: 10px 0;
+}
+
+.title-point-review {
+  font-size: calculateRem(16px);
+  font-family: 'QuicksandBold';
+}
+
+.point-review {
+  display: flex;
+
+  img {
+    margin-right: 10px;
+  }
+}
+
+.total-point {
+  background-color: #0B46AE;
+  color: #fff;
+  font-size: calculateRem(12px);
+  font-family: 'QuicksandBold';
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

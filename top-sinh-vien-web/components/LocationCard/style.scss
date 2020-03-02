@@ -1,0 +1,22 @@
+@import '../../scss/common/variable';
+@import '../../scss/mixins/index';
+
+.wrapper-maps {
+  height: calculateRem(270px);
+  width: 100%;
+
+  .gm-fullscreen-control {
+    display: none;
+  }
+  .gm-control-active {
+    display: none;
+  }
+  .gmnoprint {
+    display: none;
+  }
+}
+
+.icon-pin {
+  width: calculateRem(35px);
+  height: calculateRem(41px);
+}

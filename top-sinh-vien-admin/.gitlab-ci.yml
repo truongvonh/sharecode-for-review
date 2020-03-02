@@ -1,0 +1,17 @@
+stages:
+  - build
+  - deploy
+build-staging:
+  stage: build
+  script:
+    - cp .env.STG .env
+    - echo $CI_PROJECT_DIR
+    - yarn
+    - unset CI
+    - npm run build
+    - rsync -hrvz --delete build/ centos@172.32.0.207:/srv/top-sinh-vien-admin/build/
+
+  tags:
+    - STG
+  only:
+    - staging

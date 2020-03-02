@@ -1,0 +1,34 @@
+.wrapper-head-exam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  .wrapper-select-exam {
+    height: 100%;
+    .button-exam {
+      width: 200px;
+      background: #0B46AE;
+      border: none;
+      color: #fff;
+      margin-left: 20px;
+      height: 100%;
+      border-radius: 5px;
+      &::first-letter {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+}
+.button-exam {
+  width: 200px;
+  background: #0B46AE;
+  border: none;
+  color: #fff;
+  margin-left: 20px;
+  height: 100%;
+  border-radius: 5px;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}

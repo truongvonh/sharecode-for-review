@@ -1,0 +1,24 @@
+.wrapper-navbar {
+  width: 80px;
+  position: fixed;
+  background-color: #fff;
+  height: 100%;
+  box-shadow: 1px 0 rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  top: 80px;
+}
+
+.user-avatar {
+  right: 0;
+}
+
+.wraper-icon-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 25px;
+    padding-bottom: 50px;
+    cursor: pointer;
+  }
+}

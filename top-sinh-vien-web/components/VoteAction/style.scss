@@ -1,0 +1,31 @@
+@import './../../scss/mixins/index';
+@import './../../scss/common/variable';
+
+.interactive-wrapper {
+  span {
+    @include fontSize(12px);
+    @include breakpoint($breakpoint-md) {
+      @include fontSize(14px);
+    }
+  }
+  &.voted {
+    li:first-child {
+      .heart-icon {
+        svg path {
+          fill: $orange-color;
+          stroke: $orange-color;
+        }
+      }
+      span {
+        color: $orange-color;
+      }
+    }
+  }
+}
+
+.list-notification {
+  &.popover {
+    max-width: calculateRem(320px);
+    width: 100%;
+  }
+}

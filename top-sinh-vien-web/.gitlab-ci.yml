@@ -1,0 +1,17 @@
+stages:
+  - deploy
+  
+before_script:  
+  - echo $CI_PROJECT_DIR
+
+deploy-develop:
+  stage: deploy
+  script:
+    - sudo rsync -hrz --delete $CI_PROJECT_DIR/* /usr/git/top-sinh-vien-web -v > logRsync.txt
+    - cd /usr/git/docker
+    - sudo docker-compose up -d --build
+  tags:
+    - DEV
+  only:
+    - develop
+  

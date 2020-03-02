@@ -1,0 +1,59 @@
+@import './../../scss/common/variable';
+@import './../../scss/mixins/index';
+
+.wrapper-item-card {
+  .rank-item-image {
+    height: calculateRem(100px);
+    img {
+      width: 120%;
+    }
+    @include breakpoint($breakpoint-xl) {
+      height: calculateRem(120px);
+    }
+  }
+
+  .img-wrapper {
+    position: relative;
+    background: $color-content-light;
+    .rank {
+      position: absolute;
+      top: calculateRem(-10px);
+      left: calculateRem(-10px);
+      border-radius: 50%;
+      padding: calculateRem(3px);
+      @include avatarCircleWrapper(46px, 46px);
+      z-index: $index-icon;
+      background: $color-white;
+    }
+    .rank-item {
+      @include avatarCircleWrapper(40px, 40px);
+      @include flexCenterAll;
+      border-radius: 50%;
+      background: $orange-color;
+      color: $color-white;
+
+    }
+  }
+  .vote-wrapper {
+    top: 0;
+    &.voted {
+      button {
+        svg path {
+          stroke: $orange-color;
+          fill: $orange-color;
+        }
+      }
+    }
+    @include breakpoint($breakpoint-md) {
+      top: calculateRem(-15px);
+    }
+    button {
+      @include avatarCircleWrapper(45px, 45px);
+      @include flexCenterAll;
+      svg path {
+        @include transitionAll;
+        stroke: $color-main;
+      }
+    }
+  }
+}

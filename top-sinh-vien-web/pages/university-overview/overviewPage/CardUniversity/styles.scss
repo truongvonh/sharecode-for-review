@@ -1,0 +1,21 @@
+.wrapper-card-university {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #DBE3EB;
+}
+
+.heading-card {
+  font-family: 'QuicksandBold';
+  font-size: calculateRem(18px);
+}
+
+.poster-content {
+  color: #999;
+  font-family: 'QuicksandMedium';
+
+  img {
+    width: 100%;
+    height: 300px;
+  }
+}

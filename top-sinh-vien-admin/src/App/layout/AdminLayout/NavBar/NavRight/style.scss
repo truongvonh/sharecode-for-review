@@ -1,0 +1,33 @@
+.notification-wrapper {
+  .icon-notification {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -10px;
+    font-size: 8px;
+    top: 14px !important;
+  }
+
+}
+
+.noti-body {
+  max-height: 496px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  .notification {
+    cursor: pointer;
+    &:not(:first-child) {
+      border-top: 1px solid #eee;
+    }
+    &.not-read {
+      background: #edf2fa;
+    }
+  }
+}
+
+.icon-without-notification {
+  font-size: 30px;
+}

@@ -1,0 +1,51 @@
+@import './../../scss/common/_variable';
+@import './../../scss/mixins/index';
+
+.auth-modal {
+  .modal-content {
+    background: transparent;
+    border: 0;
+  }
+  .modal-header {
+    border: 0;
+  }
+  .close {
+    color: $color-white;
+    opacity: initial;
+    &:hover {
+      color: $color-content;
+    }
+    span {
+      font-size: calculateRem(50px);
+    }
+  }
+  .modal-body {
+    border-radius: calculateRem($bd-radius)!important;
+  }
+
+  .btn-auth-wrapper {
+    max-width: 305px;
+    width: 100%;
+    button {
+      border-radius: calculateRem($bd-radius)!important;
+      &:hover {
+        .text-primary {
+          color: $color-white !important;
+        }
+      }
+    }
+  }
+
+  input {
+    border-color: $bd-input;
+    color: $bd-input;
+  }
+
+  .form-auth {
+    .icon {
+      position: absolute;
+      @include absoluteCenter;
+      left: calculateRem(10px);
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import '../../scss/common/variable';
+@import '../../scss/mixins/index';
+
+.wrapper-album-location {
+  .wrapper-image {
+    height: 180px;
+    @include transitionAll;
+
+    &:hover,
+    &:active,
+    &:focus {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      img {
+        filter: opacity(80%);
+      }
+    }
+
+    .img-album {
+      object-fit: cover;
+    }
+  }
+}
+
+.location-album .gallery-wrapper > div {
+  height: 100% !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}

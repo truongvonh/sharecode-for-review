@@ -1,0 +1,22 @@
+<svg id="btn_cap_nhat_anh" data-name="btn_cap nhat anh" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="30" viewBox="0 0 85 30">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_340" data-name="Path 340" d="M-2-23H16V-41H-2Z" transform="translate(2 41)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Rectangle_36" data-name="Rectangle 36" stroke="rgba(255,255,255,0.8)" stroke-width="1" opacity="0.8">
+    <rect width="85" height="30" rx="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="84" height="29" rx="4.5" fill="none"/>
+  </g>
+  <text id="Cập_nhật" data-name="Cập nhật" transform="translate(31.25 19)" fill="#fff" font-size="10" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="0">Cập nhật</tspan></text>
+  <g id="Group_343" data-name="Group 343" transform="translate(7.5 6)">
+    <g id="Group_342" data-name="Group 342" clip-path="url(#clip-path)">
+      <g id="Group_340" data-name="Group 340" transform="translate(1.5 3.375)">
+        <path id="Path_338" data-name="Path 338" d="M10.125,0H4.875l-1.5,1.875H1.125A1.125,1.125,0,0,0,0,3v7.132A1.123,1.123,0,0,0,1.123,11.25H13.876A1.123,1.123,0,0,0,15,10.128V3a1.125,1.125,0,0,0-1.125-1.122h-2.25Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_341" data-name="Group 341" transform="translate(6.375 6.75)">
+        <path id="Path_339" data-name="Path 339" d="M2.625,5.25A2.625,2.625,0,1,0,0,2.625,2.625,2.625,0,0,0,2.625,5.25Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

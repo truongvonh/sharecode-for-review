@@ -1,0 +1,61 @@
+@import '../../../../scss/common/variable';
+@import '../../../../scss/mixins/index';
+
+.wrapper-card-user {
+  .img-school {
+    object-fit: cover;
+  }
+
+  .wrapper-card {
+    background: $color-white;
+    border-radius: calculateRem(5px);
+
+    .wrapper-avatar {
+      width: calculateRem(60px);
+      height: calculateRem(60px);
+      @include breakpoint($breakpoint-md) {
+        width: calculateRem(70px);
+        height: calculateRem(70px);
+      }
+    }
+  }
+
+  .btn-follow {
+    outline: none;
+    background: $color-main;
+    color: $color-white;
+    border: solid 0px $color-main;
+    border-radius: calculateRem(5px);
+    max-width: calculateRem(110px);
+  }
+
+  .btn-unfollow {
+    outline: none;
+    background: $color-white;
+    color: $quite-blue-color;
+    border: solid 1px $quite-blue-color;
+    border-radius: calculateRem(5px);
+    max-width: calculateRem(110px);
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .university-name {
+    color: $color-content-light;
+  }
+
+  .ic_badge {
+    width: calculateRem(15px);
+    height: calculateRem(15px);
+  }
+
+  .user-avatar {
+    object-fit: cover;
+  }
+
+  .user-name {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,28 @@
+@import './../../scss/common/_variable';
+@import './../../scss/mixins/index';
+
+.header-search-wrapper {
+  width: calc(100% - 150px);
+
+  @include breakpoint($breakpoint-lg) {
+    width: 30%;
+    max-width: calculateRem(540px);
+  }
+
+  .header-search-form {
+    .search-icon {
+      position: absolute;
+      @include absoluteCenter;
+      right: calculateRem(5px);
+    }
+  }
+
+  .suggestion-wrapper,
+  .no-data-wrapper,
+  .search-result-wrapper {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+@import '../../../../scss/common/variable';
+@import '../../../../scss/mixins/index';
+
+.wrapper-competition {
+  background-color: $color-white;
+  border-radius: calculateRem(5px);
+
+  .item-date {
+    color: $color-content-light;
+  }
+
+  .item-title {
+    color: $color-font;
+  }
+
+  .img-competition {
+    width: 100%;
+    object-fit: cover;
+    filter: opacity(100%);
+    @include breakpoint($breakpoint-lg) {
+      max-height: calculateRem(300px);
+    }
+  }
+  p {
+    margin: 0;
+  }
+}

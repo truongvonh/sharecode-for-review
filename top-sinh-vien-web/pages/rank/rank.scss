@@ -1,0 +1,147 @@
+@import '../../scss/common/variable';
+@import '../../scss/mixins/index';
+
+.wrapper-head-university {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper-ranking {
+  .wrapper-input-search-uni {
+    display: flex;
+    position: relative;
+    width: 100%;
+    @include breakpoint($breakpoint-md) {
+      width: 40%;
+    }
+
+    .search-school {
+      width: 100%;
+      border-radius: 5px;
+      border: 0;
+      outline: none;
+    }
+
+    .icon-search {
+      position: absolute;
+      right: 13px;
+      top: 13px;
+    }
+  }
+}
+
+.sort-select {
+  // height: 50px;
+  width: 100%;
+  @include breakpoint($breakpoint-md) {
+    min-width: 167px;
+  }
+}
+
+.wrapper-select-rank {
+  height: 100%;
+}
+
+.input-rank-university {
+  margin-left: 20px;
+  height: 100%;
+  border-radius: 5px;
+  // padding: 15px 50px 15px 15px;
+  border: 0;
+  outline: none;
+}
+
+.wraper-card-rank {
+  background: $color-white;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+}
+
+.main-card-item {
+  &:nth-child(1) {
+    .rank {
+      background: #fd5825;
+    }
+  }
+  &:nth-child(2) {
+    .rank {
+      background: #fd5825;
+    }
+  }
+  &:nth-child(3) {
+    .rank {
+      background: #fd5825;
+    }
+  }
+}
+
+.rank {
+  background: #333333;
+  color: $color-white;
+  width: 30px;
+  height: 30px;
+}
+
+.img-avatar {
+  width: 70px;
+  height: 70px;
+  @include breakpoint($breakpoint-md) {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.icon-badge {
+  width: calculateRem(15px);
+  height: auto;
+  object-fit: cover;
+}
+
+.university-name {
+  color: $color-content-light;
+}
+
+.item-point {
+  color: $quite-blue-color;
+  min-width: 100px;
+}
+
+.btn-flow {
+  outline: none;
+  background: $color-main;
+  color: $color-white;
+  border: solid 0px $color-main;
+  border-radius: 5px;
+  max-width: 110px;
+}
+
+.btn-unflow {
+  outline: none;
+  background: $color-white;
+  color: $quite-blue-color;
+  border: solid 1px $quite-blue-color;
+  border-radius: 5px;
+  max-width: 110px;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper-input-search-uni {
+    width: 100%;
+  }
+
+  .wrapper-select-rank {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .input-rank-university {
+    margin-left: 0px;
+  }
+
+  .info-university {
+    margin-left: 0;
+    color: #999999;
+    margin-bottom: 7px;
+  }
+}

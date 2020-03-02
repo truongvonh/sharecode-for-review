@@ -1,0 +1,95 @@
+.wrapper-navbar-search {
+  position: fixed;
+  background-color: #fff;
+  height: calc(100vh - 80px);
+  left: 0;
+  top: 80px;
+  max-width: 451px;
+  width: 100%;
+  overflow: auto;
+  padding: 0 30px;
+}
+
+.wrapper-search-university {
+  max-width: 390px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+
+  .icon-search {
+    position: absolute;
+    right: 13px;
+    top: 13px;
+  }
+}
+
+.navbar-search {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  padding: 15px 50px 15px 15px;
+  border: 1px solid #DBE3EB;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.item-location {
+  display: flex;
+  padding: 30px 0;
+  border-bottom: 1px solid #EEF3F7;
+}
+
+.img-university-location {
+  height: 80px;
+  margin-right: 15px;
+  width: 80px;
+}
+
+.wrapper-info-detail-location {
+  width: 100%;
+
+  h6 {
+    text-transform: capitalize;
+  }
+}
+
+.info-address-location {
+  margin: 0;
+  color: #999;
+  font-size: 14px;
+}
+
+.rating-location {
+  display: flex;
+  margin: 2px 0;
+}
+
+.point-rating-university {
+  color: #FD5825;
+  font-weight: bold;
+  margin: 0px 10px;
+}
+
+.amount-vote-university {
+  margin: 0;
+  color: #999;
+  font-size: 14px;
+}
+
+.acronym-university {
+  display: flex;
+}
+
+.img-ava-university {
+  margin-right: 10px;
+}
+
+.represent-name-university {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}

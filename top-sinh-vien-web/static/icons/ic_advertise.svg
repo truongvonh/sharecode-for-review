@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="ic_quang_cao" data-name="ic_quang cao" transform="translate(2 2)">
+    <g id="Ellipse_9" data-name="Ellipse 9" fill="#0b46ae" stroke="#fff" stroke-width="2">
+      <circle cx="11" cy="11" r="11" stroke="none"/>
+      <circle cx="11" cy="11" r="12" fill="none"/>
+    </g>
+    <g id="megaphone" transform="translate(4.877 5.921)">
+      <path id="Rectangle_52" data-name="Rectangle 52" d="M0,4.712a1.938,1.938,0,0,1,1.935-1.94h4.7L11.056,0V9.425L6.633,6.653h-4.7A1.938,1.938,0,0,1,0,4.712Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Rectangle" d="M0,0H2.772a0,0,0,0,1,0,0V3.511a.924.924,0,0,1-.924.924h0A1.848,1.848,0,0,1,0,2.587V0A0,0,0,0,1,0,0Z" transform="translate(2.772 6.653)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Line" d="M1,3.881V0" transform="translate(4.544 2.772)" fill="none" stroke="#fff" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

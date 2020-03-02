@@ -1,0 +1,13 @@
+@import '../../scss/mixins/index';
+@import '../../scss/common/variable';
+
+.global-loading-wrapper {
+  .modal-content {
+    border: none!important;
+    @include boxShadow;
+    padding: 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

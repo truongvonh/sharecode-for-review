@@ -1,0 +1,30 @@
+import {
+  GET_STATISTICAL_PROGRESS,
+  GET_STATISTICAL_SUCCESS,
+  GET_STATISTICAL_FAILED,
+  GET_FILTER_MEMBER_PROGRESS,
+  GET_FILTER_MEMBER_SUCCESS,
+  GET_FILTER_MEMBER_FAILED,
+  GET_YEAR_CREATE_PROGRESS,
+  GET_YEAR_CREATE_SUCCESS,
+  GET_YEAR_CREATE_FAILED
+} from './constant';
+import { STATISTICAL_ENDPOINT } from '../../api/constant';
+
+export const getStatistical = () => ({
+  types: [GET_STATISTICAL_PROGRESS, GET_STATISTICAL_SUCCESS, GET_STATISTICAL_FAILED],
+  callAPI: () => STATISTICAL_ENDPOINT.GET_STATISTICAL(),
+  payload: {}
+});
+
+export const getFilterMember = ({ type, month, year }) => ({
+  types: [GET_FILTER_MEMBER_PROGRESS, GET_FILTER_MEMBER_SUCCESS, GET_FILTER_MEMBER_FAILED],
+  callAPI: () => STATISTICAL_ENDPOINT.GET_FILTER_MEMBER({ type, month, year }),
+  payload: { type, month, year }
+});
+
+export const getYearCreate = () => ({
+  types: [GET_YEAR_CREATE_PROGRESS, GET_YEAR_CREATE_SUCCESS, GET_YEAR_CREATE_FAILED],
+  callAPI: () => STATISTICAL_ENDPOINT.GET_YEAR_CREATE(),
+  payload: {}
+});

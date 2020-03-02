@@ -1,0 +1,19 @@
+@import './../../scss/common/_variable';
+@import './../../scss/mixins/index';
+
+.wrapper-group {
+  .image-avatar {
+    img {
+      border-radius: 50%;
+      width: calculateRem(50px);
+      height: calculateRem(50px);
+    }
+  }
+  .input-cmt {
+    height: calculateRem(80px);
+    border: solid 1px $color-content;
+    color: blue;
+    resize: none;
+    outline: none;
+  }
+}

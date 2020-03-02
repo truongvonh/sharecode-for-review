@@ -1,0 +1,65 @@
+@import '../../../../scss/common/variable';
+@import '../../../../scss/mixins/index';
+
+.wrapper-item-card-place {
+  background: $color-white;
+  border: 1px solid $secondary-color;
+  border-radius: 5px;
+  z-index: 1;
+
+  .place-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.place-item {
+
+  .place-name {
+    color: $color-font;
+    margin-bottom: 0px;
+
+    @include breakpoint($breakpoint-sm) {
+      font-size: 16px;
+    }
+  }
+
+  .place-address {
+    margin-bottom: 1px;
+
+    @include breakpoint($breakpoint-sm) {
+      font-size: 14px;
+    }
+  }
+
+  .place-rank-star {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .place-rank-star,
+  .place-rank-star :hover {
+    svg path {
+      stroke: $orange-color;
+    }
+  }
+  .overviews,
+  .overviews :hover {
+    svg path {
+      stroke: $color-main;
+    }
+  }
+
+  .total-rating {
+    color: $color-btn-google;
+    margin: 0 10px;
+  }
+
+  .total-user-rating {
+    color: $color-content-light;
+    margin-bottom: 5px;
+  }
+
+  .graduate-result {
+    margin: 0 5px;
+  }
+}

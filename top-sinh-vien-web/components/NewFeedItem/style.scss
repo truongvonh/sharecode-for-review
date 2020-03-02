@@ -1,0 +1,52 @@
+@import "./../../scss/common/variable";
+@import "./../../scss/mixins/index";
+
+.new-feed-wrapper {
+  //max-width: 600px;
+  //margin: 0 auto;
+
+  .action-button {
+    button {
+      border-radius: calculateRem(5px);
+      svg,
+      svg:hover {
+        path {
+          stroke: $color-white;
+        }
+      }
+    }
+  }
+  .new-feed-item {
+    .avatar,
+    .btn-comment{
+      border-radius: 50%;
+      width: calculateRem(50px);
+      height: calculateRem(50px);
+
+    }
+    .avatar {
+      a {
+        overflow: hidden;
+        height: inherit;
+      }
+      img {
+        width: calculateRem(50px);
+        border-radius: 50%;
+        height: calculateRem(50px);
+      }
+    }
+    .all-badge {
+      img {
+        width: calculateRem(15px);
+        height: calculateRem(15px);
+      }
+    }
+    .btn-comment {
+      transform: rotateZ(-50deg);
+      path {
+        stroke: $color-white;
+      }
+    }
+  }
+}
+

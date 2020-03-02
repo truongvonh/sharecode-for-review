@@ -1,0 +1,19 @@
+.page-item.disabled .page-link {
+  color: #8898aa;
+  pointer-events: none;
+  cursor: pointer;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.page-item .page-link, .page-item span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0 3px;
+  border-radius: 50%!important;
+  width: 36px;
+  height: 36px;
+  font-size: .875rem;
+}

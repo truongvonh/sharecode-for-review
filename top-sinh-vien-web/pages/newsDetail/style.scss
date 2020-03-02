@@ -1,0 +1,27 @@
+@import "./../../scss/mixins/index";
+@import "./../../scss/common/variable";
+
+.detail-newfeed {
+  background: red;
+  .avatar  {
+    &,
+    & a {
+      @include avatarCircleWrapper(60px, 60px);
+    }
+  }
+  .badge-icon {
+    @include  avatarCircleWrapper(15px, 15px);
+    img {
+      vertical-align: baseline;
+    }
+  }
+  .school-rating {
+    .rating-point {
+      width: calculateRem(25px);
+      height: calculateRem(25px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

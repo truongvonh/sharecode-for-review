@@ -1,0 +1,7 @@
+{
+    "editor.tabSize": 2,
+    "prettier.arrowParens": "always",
+    "editor.renderWhitespace": "selection",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+}

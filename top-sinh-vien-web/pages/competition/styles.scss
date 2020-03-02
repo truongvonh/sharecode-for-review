@@ -1,0 +1,54 @@
+@import '../../scss/common/variable';
+
+.wrapper-button-competition {
+  padding: 20px 0;
+  flex-wrap: wrap;
+
+  .btn-elimination-round {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    min-width: 133px;
+    outline: none;
+    background: $color-content;
+    color: $color-content-light;
+    font-family: 'QuicksandBold';
+    border: 1px solid $border-color;
+  }
+
+  .btn-knock-out {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    min-width: 133px;
+    outline: none;
+    background: #fd5825;
+    color: $color-white;
+    font-family: 'QuicksandBold';
+    border: 1px solid $border-color;
+  }
+}
+
+.wrapper-qualifying-round {
+  .btn-qualifying-round {
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    outline: none;
+    font-family: 'QuicksandMedium';
+    color: $color-content-light;
+    margin-bottom: 8px;
+    background: $color-white;
+    border: 1px solid $border-color;
+  }
+
+  .active {
+    background: $color-main;
+    color: $color-white;
+  }
+}
+
+.banner-ads {
+  width: 100px;
+  height: 100px;
+}

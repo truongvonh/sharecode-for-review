@@ -1,0 +1,14 @@
+@import './../../scss/common/_variable';
+@import './../../scss/mixins/index';
+
+.main-sidebar {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: $index-sidebar;
+  @include breakpoint($breakpoint-lg) {
+    left: 0;
+    height: calc(100vh - 75px);
+    width: auto;
+  }
+}

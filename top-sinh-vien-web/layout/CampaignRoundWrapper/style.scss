@@ -1,0 +1,28 @@
+@import "./../../scss/mixins/index";
+@import "./../../scss/common/variable";
+
+.campaign-round-wrapper {
+  padding-bottom: 30%;
+  background-size: cover !important;
+}
+
+.campaign-round-navigate {
+  .active {
+    background: $orange-color !important;
+    color: $color-white !important;
+  }
+}
+
+.modal-campaign-type {
+  .modal-content {
+    background: transparent;
+    border: 0;
+    .close {
+      opacity: 1;
+      span {
+        color: $color-white;
+        @include fontSize(50px);
+      }
+    }
+  }
+}

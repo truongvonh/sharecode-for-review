@@ -1,0 +1,94 @@
+@import '../../scss/common/variable';
+@import '../../scss/mixins/index';
+
+.wrapper-school {
+  .wrapper-card {
+    background-color: $color-white;
+    width: 100%;
+    border-radius: 5px;
+    border: 0 solid transparent;
+    box-shadow: none;
+    @include transitionAll;
+    &:hover,
+    &:active,
+    &:focus {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      img {
+        filter: opacity(80%);
+      }
+    }
+
+    .img-university {
+      width: 100%;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      object-fit: cover;
+      filter: opacity(100%);
+      @include transitionAll;
+      height: 100%;
+    }
+
+    .wrapper-img-university {
+      height: 200px;
+    }
+  }
+
+  .university-address {
+    color: $color-content-light;
+  }
+
+  .wrapper-rank-star {
+    margin-right: 10px;
+    img {
+      margin: 0 2px;
+    }
+  }
+
+  .total-rating {
+    color: $orange-color;
+    margin: 0 5px;
+  }
+
+  .total-user-rating {
+    color: $color-content-light;
+    margin-bottom: 5px;
+  }
+
+  .wrapper-input-search-uni {
+    display: flex;
+    position: relative;
+    width: 100%;
+    @include breakpoint($breakpoint-md) {
+      width: 40%;
+    }
+
+    .search-school {
+      width: 100%;
+      border-radius: 5px;
+      border: 0;
+      outline: none;
+    }
+
+    .icon-search {
+      position: absolute;
+      right: 13px;
+      top: 13px;
+    }
+  }
+
+  .sort-select {
+    width: 100%;
+    @include breakpoint($breakpoint-md) {
+      min-width: 167px;
+    }
+  }
+
+  .wrapper-select-sort {
+    width: 100%;
+    margin-top: 10px;
+    @include breakpoint($breakpoint-md) {
+      margin-top: 0px;
+      max-width: 300px;
+    }
+  }
+}

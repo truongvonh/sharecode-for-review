@@ -1,0 +1,26 @@
+@import '../../../scss/common/variable';
+@import '../../../scss/mixins/index';
+
+.header {
+  background-color: $color-white;
+  cursor: pointer;
+
+  ul {
+    margin-bottom: 0px;
+    padding-left: 10px;
+
+    .active {
+      border-bottom: 3px solid $color-main;
+      border-radius: 3px;
+    }
+
+    li {
+      color: $color-content-light;
+      justify-content: center;
+
+      @include breakpoint($breakpoint-sm) {
+        padding: 20px;
+      }
+    }
+  }
+}

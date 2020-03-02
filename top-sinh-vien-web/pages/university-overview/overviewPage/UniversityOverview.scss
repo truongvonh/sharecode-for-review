@@ -1,0 +1,56 @@
+.wrapper-profile-university {
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.profile-university-left {
+  width: 25%;
+}
+
+.wrapper-introduce-university {
+  background-color: #fff;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #DBE3EB;
+  margin-bottom: 30px;
+}
+
+.title-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  border-bottom: 1px solid #EEF3F7;
+  height: 70px;
+
+  h4 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'QuicksandBold';
+  }
+
+  p {
+    margin: 0;
+    color: #7B7B7B;
+    font-size: calculateRem(14px);
+    font-family: 'QuicksandRegular';
+  }
+}
+
+.content-intro {
+  font-family: 'QuicksandMedium';
+  color: #999;
+  padding: 12px 15px 0;
+  margin: 0;
+}
+
+.profile-university-center {
+  width: 50%;
+  margin: 0 30px;
+}
+
+.profile-university-right {
+  width: 25%;
+}

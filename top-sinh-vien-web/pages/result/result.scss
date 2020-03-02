@@ -1,0 +1,30 @@
+@import '../../scss/common/variable';
+@import '../../scss/mixins/index';
+.result-university {
+  padding-left: 28%;
+  @include breakpoint($breakpoint-sm) {
+    padding-left: 0px;
+  }
+  .result-university-button {
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
+    background: $color-main;
+    border-radius: 10px;
+    color: $color-white;
+    &::first-letter {
+      text-transform: uppercase;
+    }
+    @include breakpoint($breakpoint-sm) {
+      height: 50px;
+      width: 200px;
+      font-size: 16px;
+    }
+  }
+}
+
+.not-found-data {
+  img {
+    max-width: 200px;
+  }
+}

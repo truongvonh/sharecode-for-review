@@ -1,0 +1,26 @@
+@import '../../../../scss/common/variable';
+
+.wrapper-qualifying-round {
+
+  .btn-qualifying-round {
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    outline: none;
+    font-family: 'QuicksandMedium';
+    color: $color-content-light;
+    margin-bottom: 8px;
+    background: $color-white;
+    border: 1px solid $border-color;
+  }
+
+  .active {
+    background: $color-main;
+    color: $color-white;
+  }
+
+  button:hover {
+    background: $color-main;
+    color: $color-white;
+  }
+}

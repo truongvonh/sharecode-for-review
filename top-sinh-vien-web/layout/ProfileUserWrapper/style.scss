@@ -1,0 +1,132 @@
+@import '../../scss/common/variable';
+@import '../../scss/mixins/index';
+
+.wrapper-profile-user {
+  .ic-change-avatar {
+    left: calculateRem(40px);
+    bottom: calculateRem(4px);
+    cursor: pointer;
+    @include breakpoint($breakpoint-md) {
+      left: 55px;
+    }
+  }
+
+  .nav-profile {
+    background: $color-main;
+    p {
+      margin: 0;
+      color: $color-white;
+      cursor: pointer;
+      font-size: calculateRem(14px);
+    }
+  }
+
+  .link-active {
+    p {
+      color: $color-link;
+    }
+  }
+
+  .wrapper-img-avatar {
+    width: calculateRem(60px);
+    height: calculateRem(60px);
+
+    border: solid 2px $color-white;
+
+    @include breakpoint($breakpoint-md) {
+      width: calculateRem(80px);
+      height: calculateRem(80px);
+    }
+
+    .img-avatar {
+      object-fit: cover;
+    }
+  }
+
+  .wrapper-info {
+    bottom: calculateRem(10px);
+    left: calculateRem(10px);
+    @include breakpoint($breakpoint-md) {
+      bottom: calculateRem(23px);
+      left: calculateRem(21px);
+    }
+
+    .user-name {
+      color: $color-white;
+    }
+  }
+
+  .btn-message {
+    background: $color-link;
+    color: $color-white;
+    width: calculateRem(111px);
+  }
+
+  .wrapper-img-cover {
+    height: calculateRem(200px);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    width: 100%;
+
+    @include breakpoint($breakpoint-sm) {
+      height: calculateRem(250px);
+    }
+
+    @include breakpoint($breakpoint-md) {
+      height: calculateRem(300px);
+    }
+
+    .img-cover {
+      object-fit: cover;
+    }
+  }
+
+  .wrapper-nav-search {
+    width: 100%;
+    @include breakpoint($breakpoint-md) {
+      width: 40%;
+    }
+  }
+
+  .wrapper-nav-search {
+    position: relative;
+
+    .css-tlfecz-indicatorContainer {
+      display: none;
+    }
+
+    .css-1okebmr-indicatorSeparator {
+      display: none;
+    }
+
+    .css-1pahdxg-control {
+      .css-1gtu0rj-indicatorContainer:nth-child(2) {
+        .css-6q0nyr-Svg {
+          display: none;
+        }
+      }
+    }
+
+    .css-1pahdxg-control {
+      .css-1gtu0rj-indicatorContainer:nth-child(3) {
+        svg {
+          display: none;
+        }
+      }
+      .css-1gtu0rj-indicatorContainer:nth-child(1) {
+        margin-right: calculateRem(15px);
+      }
+    }
+
+    .ic-search {
+      position: absolute;
+      top: calculateRem(28px);
+      right: calculateRem(7px);
+    }
+  }
+
+  .ic_badge {
+    width: calculateRem(15px);
+    height: calculateRem(15px);
+  }
+}

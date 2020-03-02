@@ -1,0 +1,9 @@
+@import '../../scss/common/variable';
+@import '../../scss/mixins/index';
+
+.wrapper-read-more {
+  .show-more-button {
+    color: $color-link;
+    cursor: pointer;
+  }
+}

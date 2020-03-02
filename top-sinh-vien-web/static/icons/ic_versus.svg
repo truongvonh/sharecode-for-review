@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Vs" transform="translate(-167 -223)">
+    <path id="Combined_Shape" data-name="Combined Shape" d="M35.432,6.643,30.054,1.264a4.32,4.32,0,0,0-6.107,0L18.568,6.643H10.961a4.32,4.32,0,0,0-4.319,4.319v7.606L1.264,23.946a4.32,4.32,0,0,0,0,6.107l5.379,5.379v7.606a4.32,4.32,0,0,0,4.319,4.319h7.606l5.379,5.379a4.32,4.32,0,0,0,6.107,0l5.379-5.379h7.606a4.32,4.32,0,0,0,4.319-4.319V35.432l5.379-5.379a4.32,4.32,0,0,0,0-6.107l-5.379-5.379V10.961a4.32,4.32,0,0,0-4.319-4.319Z" transform="translate(168 224)" fill="#1ba8e8" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <text id="VS-2" data-name="VS" transform="translate(194.759 258.759)" fill="#fff" font-size="21" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="-13.283" y="0">VS</tspan></text>
+  </g>
+</svg>
